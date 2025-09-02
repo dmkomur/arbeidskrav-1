@@ -41,6 +41,13 @@ body {
 
 /* common elements */
 
+.section-header {
+        font-size: clamp(1.5rem, 4vw, 3rem);
+        font-weight: 700;
+        text-align: center;
+        color: var(--color-primary);
+}
+
 .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -52,6 +59,9 @@ body {
                 padding: 0 12px;
         }
 
+        .section-header {
+                text-align: left;
+        }
 }
 
 @media screen and (min-width: 1200px) {
