@@ -1,0 +1,62 @@
+/* reset default styles */
+
+*,
+*::before,
+*::after {
+        box-sizing: border-box;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+a,
+a:visited {
+        color: inherit;
+        text-decoration: none;
+}
+
+ol,
+ul {
+        list-style: none;
+}
+
+
+body {
+        font-family: "Roboto Flex", sans-serif;
+        background-color: var(--color-surface);
+        color: var(--color-text-dark);
+}
+
+/* variebles */
+
+:root {
+        --color-primary: #6750A4;
+        --color-primary-hover: #7F67BE;
+        --color-accent: #EADDFF;
+        --color-text-dark: #1C1B1F;
+        --color-surface: #FFFBFE;
+}
+
+/* common elements */
+
+.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+        .container {
+                padding: 0 12px;
+        }
+
+}
+
+@media screen and (min-width: 1200px) {
+        .container {
+                padding: 0 8px;
+        }
+
+}
