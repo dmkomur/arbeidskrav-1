@@ -14,7 +14,7 @@
 }
 
 .gallery-img {
-        width: clamp(100px, 24vw, 288px);
+        width: clamp(200px, 24vw, 340px);
         height: auto;
         object-fit: cover;
         border-radius: 2rem;
