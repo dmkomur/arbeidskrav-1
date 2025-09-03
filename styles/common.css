@@ -29,6 +29,10 @@ body {
         color: var(--color-text-dark);
 }
 
+html {
+        scroll-behavior: smooth;
+}
+
 /* variebles */
 
 :root {
