@@ -1,5 +1,7 @@
 # Arbeidskrav-1 **KadeKatt**
 
+https://dmkomur.github.io/arbeidskrav-1/
+
 **Gokstad Akademiet 2025**
 
 An educational project — a static, three-page responsive website.
