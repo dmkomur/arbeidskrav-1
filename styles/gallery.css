@@ -1,0 +1,29 @@
+.gallery {
+        background-color: var(--color-accent);
+        padding: clamp(2rem, 8vw, 6rem) 0;
+}
+
+.gallery-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: clamp(1rem, 5vw, 3rem);
+        margin-top: clamp(1rem, 5vw, 3rem);
+}
+
+.gallery-img {
+        width: clamp(100px, 24vw, 288px);
+        height: auto;
+        object-fit: cover;
+        border-radius: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        transition: all 0.2s ease-in-out;
+}
+
+.gallery-img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        transition: all 0.2s ease-in-out;
+}

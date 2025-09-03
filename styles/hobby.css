@@ -1,0 +1,27 @@
+.hobby {
+        margin: 40px 0;
+}
+
+.hobby-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: clamp(1rem, 5vw, 3rem);
+}
+
+.hobby-text {
+        font-size: clamp(1rem, 4vw, 1.75rem);
+}
+
+@media screen and (min-width: 768px) {
+
+
+        .hobby {
+                margin: 48px 0;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+        .hobby {
+                margin: 60px 0;
+        }
+}
